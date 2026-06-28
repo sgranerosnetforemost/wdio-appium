@@ -6,7 +6,7 @@ describe('ColorNote Delete Note Tests with Screen Object', () => {
     let noteTitle;
 
     before(async () => {
-        noteTitle = `Favorite Anime List ${Date.now()}`;
+        noteTitle = `Anime List ${Date.now()}`;
 
         const noteBody = 'one piece\nfruits basket\nhxh';
         const noteBodyLines = ['one piece', 'fruits basket', 'hxh'];
